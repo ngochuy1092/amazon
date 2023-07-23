@@ -66,7 +66,7 @@ displayCheck.forEach((value)=> {
     let imgClass= value.dataset.productCheck;
     img= document.querySelector(`.${imgClass}`);
     console.log(img); 
-    img.style.display="block";
+    img.style.display="flex";
     setTimeout(()=>{img.style.display="none"},2000)
   })
 })
